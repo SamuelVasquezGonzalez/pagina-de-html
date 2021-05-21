@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color:rgb(212, 212, 212);
+}
+
+
+
+article{
+    padding: 25px;
+    font-family: 'PT Sans', sans-serif;
+    width: 95%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagenes img{
+    border: 1px solid rgb(156, 156, 156);
+    background: rgb(214, 214, 214);
+    border-radius: 12px;
+    padding: 15px;
+    margin: 15px;
+    width: 25%;
+}
+
+.imagenes h3{
+    position: absolute;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+    .imagenes img{
+        width: 45%;
+        padding: 10px;
+    }
+}

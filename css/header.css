@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+label{
+    display: none;
+}
+
+input{
+    display: none;
+}
+
+.titulo h2{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 {
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+
+nav ul a{
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+}
+
+nav ul a:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    transition: 0.3s all;
+}
+
+hr{
+    display: none;
+}
+
+@media screen and (max-width: 620px) {
+    
+    .titulo h2{
+        margin-left: 10px;
+    }
+    
+    label{
+        display: block;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    input:checked ~ .nav2{
+        display: block;
+        margin: 0;
+    }
+
+    nav ul a{
+        border-radius: none;
+        padding: 0;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .nav2{
+        padding: 0;
+        margin: 0;
+        display: fixed;
+        position: absolute;
+        background-color: rgba( 0, 0, 0, 0.8);
+        width: 80%;
+        height: 50%;
+        margin-left: -90%;
+        transition: all 0.5s;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul a:hover{
+        background-color: rgba( 0, 0, 0, 0.10);
+        color: white;
+    }
+    
+    hr{
+        display: block;
+        background: white;
+    }
+}
