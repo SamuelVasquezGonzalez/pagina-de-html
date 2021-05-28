@@ -7,7 +7,13 @@ body{
     background-color:rgb(212, 212, 212);
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
 
+::-webkit-scrollbar-thumb{
+    background:rgba(59, 59, 59, 0.4);
+}
 
 article{
     padding: 25px;
@@ -65,6 +71,23 @@ article{
 
 .imageness img{
     width: 25%;
+}
+
+.subir{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 50px;
+    background: white;
+}
+
+.subir:hover{
+    background: rgb(187, 187, 187);
+    transition: 0.3s all;
 }
 
 
