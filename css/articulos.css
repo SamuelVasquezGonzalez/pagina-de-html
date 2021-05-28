@@ -43,14 +43,30 @@ article{
 }
 
 
-.imagenes h3{
-    position: absolute;
-}
-
 .botones{
     display: flex;
     justify-content: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    text-decoration: none;
 }
+
+.botones:hover{
+    color: rgb(216, 216, 216);
+    transition: 0.3s all;
+}
+
+.imageness{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imageness img{
+    width: 25%;
+}
+
 
 @media screen and (max-width: 620px) {
     .imagenes img{
