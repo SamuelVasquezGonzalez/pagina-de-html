@@ -34,6 +34,14 @@ article{
     width: 25%;
 }
 
+.imagenes img:hover{
+    transform: scale(1.2);
+    transition: 0.3s all;
+    padding: 0;
+    border: 0;
+
+}
+
 
 .imagenes h3{
     position: absolute;
@@ -44,9 +52,9 @@ article{
     justify-content: center;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 620px) {
     .imagenes img{
         width: 45%;
-        padding: 10px;
+        padding: 5px;
     }
 }

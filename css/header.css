@@ -20,6 +20,7 @@ label{
     display: none;
 }
 
+
 input{
     display: none;
 }
@@ -79,22 +80,24 @@ hr{
     }
 
     input:checked ~ .nav2{
-        display: block;
         margin: 0;
     }
 
     nav ul a{
-        margin: 20px;
+        margin-left: 20px;
+        margin-bottom: 50px;
         font-size: 20px;
     }
 
+
     .nav2{
-        padding: 0;
-        margin: 0;
-        position: absolute;
+        position: fixed;
+        top: 82px;
+        left: 0;
         background-color: rgba( 0, 0, 0, 0.8);
-        width: 80%;
-        margin-left: -90%;
+        width: 100%;
+        height: 82vh;
+        margin-left: -100%;
         transition: all 0.5s;
     }
 
