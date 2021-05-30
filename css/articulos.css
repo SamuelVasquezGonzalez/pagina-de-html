@@ -8,10 +8,11 @@ body{
 }
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-thumb{
+    border-radius: 25px;
     background:rgba(59, 59, 59, 0.4);
 }
 
@@ -32,6 +33,7 @@ article{
 }
 
 .imagenes img{
+    cursor: pointer;
     border: 1px solid rgb(156, 156, 156);
     background: rgb(212, 212, 212);
     border-radius: 12px;
@@ -79,16 +81,28 @@ article{
     right: 0;
     margin-right: 20px;
     margin-bottom: 20px;
-    padding: 15px;
-    box-shadow: 5px 5px 5px;
     border-radius: 50px;
+    border: 2px solid #333 ;
     background: white;
 }
 
-.subir:hover{
-    background: rgb(187, 187, 187);
+.subir i{
+    padding: 15px 25px 15px 25px;
+    margin: 0;
+    color: #333;
+}
+
+.subir i:hover{
+    color: white;
     transition: 0.3s all;
 }
+
+.subir:hover{
+    background: rgb(156, 156, 156);
+    box-shadow: 5px 5px 5px;
+    transition: 0.3s all;
+}
+
 
 
 @media screen and (max-width: 620px) {
