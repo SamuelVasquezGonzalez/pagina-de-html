@@ -14,6 +14,7 @@ header{
     padding: 20px;
     width: 100%;
     font-family: 'Oswald', sans-serif;
+    box-shadow: 0px 0px 15px #333;
 }
 
 label{
@@ -30,14 +31,15 @@ input{
     font-size: 22px;
     color: white;
     text-decoration: none;
+    transition: 0.3s all;
 }
 
 
 .titulo a:hover{
     margin-left: 50px;
-    color: rgb(207, 207, 207);
-    transition: 0.3s all;
+    color: white;
     text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 
@@ -55,12 +57,12 @@ nav ul a{
     text-decoration: none;
     font-size: 17px;
     color:white;
+    transition: 0.3s all;
 }
 
 nav ul a:hover{
     background-color: rgba(255, 255, 255, 0.7);
     color: #333;
-    transition: 0.3s all;
 }
 
 hr{

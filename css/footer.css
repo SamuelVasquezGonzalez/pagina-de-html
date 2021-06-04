@@ -35,9 +35,9 @@ i{
     color: white;
     font-size: 50px;
     margin-left: 20px;
+    transition: 0.3s all;
 }
 
 i:hover{
     color: rgb(141, 141, 141);
-    transition: 0.3s all;
 }
