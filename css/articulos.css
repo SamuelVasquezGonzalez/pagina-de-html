@@ -49,7 +49,8 @@ article{
     width: 25%;
 }
 
-.imagenes img:hover{
+ 
+.imagenes img:active{
     transform: scale(1.2);
     padding: 0;
     border: 0;
