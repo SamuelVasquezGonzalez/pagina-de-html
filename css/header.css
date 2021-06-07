@@ -21,6 +21,14 @@ label{
     display: none;
 }
 
+.icon-samuelsemuelogosamuel-icon{
+    color: white;
+    font-size: 80px;
+}
+
+.icon-samuelsemuelogosamuel-icon:hover {
+    color: rgb(179, 179, 179);
+}
 
 input{
     display: none;
@@ -39,13 +47,12 @@ input{
     margin-left: 50px;
     color: white;
     text-decoration: none;
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 
 .nav2 {
     margin-right: 30px;
-    margin-top: 6px;
+    margin-top: 30px;
 }
 
 
@@ -74,11 +81,16 @@ hr{
     .titulo a{
         margin-left: 10px;
     }
+
+    .icon-samuelsemuelogosamuel-icon{
+        color: white;
+        font-size: 60px;
+    }
     
     label{
         display: block;
         margin-right: 10px;
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
     label i{
@@ -106,7 +118,7 @@ hr{
 
     .nav2{
         position: fixed;
-        top: 78px;
+        top: 102px;
         left: 0;
         background-color: rgba( 0, 0, 0, 0.8);
         width: 100%;

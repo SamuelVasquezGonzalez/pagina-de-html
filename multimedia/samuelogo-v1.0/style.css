@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'samuelogo';
+  src:  url('fonts/samuelogo.eot?4ryh79');
+  src:  url('fonts/samuelogo.eot?4ryh79#iefix') format('embedded-opentype'),
+    url('fonts/samuelogo.ttf?4ryh79') format('truetype'),
+    url('fonts/samuelogo.woff?4ryh79') format('woff'),
+    url('fonts/samuelogo.svg?4ryh79#samuelogo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon-samuelsemuelogosamuel-icon {
+  font-family: 'samuelogo' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+}
+
+.icon-samuelsemuelogosamuel-icon:before {
+  content: "\e900";
+}
