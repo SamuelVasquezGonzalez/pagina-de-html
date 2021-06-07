@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ header{
     background-color: #3f3f3f;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     font-family: 'Oswald', sans-serif;
     box-shadow: 0px 0px 15px #333;
@@ -23,7 +23,7 @@ label{
 
 .icon-samuelsemuelogosamuel-icon{
     color: white;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .icon-samuelsemuelogosamuel-icon:hover {
@@ -35,8 +35,7 @@ input{
 }
 
 .titulo a {
-    margin-left: 50px;
-    font-size: 22px;
+    margin-left: 30px;
     color: white;
     text-decoration: none;
     transition: 0.3s all;
@@ -44,7 +43,7 @@ input{
 
 
 .titulo a:hover{
-    margin-left: 50px;
+    margin-left: 30px;
     color: white;
     text-decoration: none;
 }
@@ -52,7 +51,7 @@ input{
 
 .nav2 {
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -118,7 +117,7 @@ hr{
 
     .nav2{
         position: fixed;
-        top: 102px;
+        top: 80px;
         left: 0;
         background-color: rgba( 0, 0, 0, 0.8);
         width: 100%;

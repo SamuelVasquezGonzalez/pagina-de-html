@@ -6,6 +6,25 @@ body{
     min-height: 100vh;
     background-color:rgb(212, 212, 212);
 }
+::selection {
+    background: rgb(226, 0, 0);
+    color:white;
+}
+
+b::selection{
+    background: rgb(226, 0, 0);
+    color: white;
+}
+
+a::selection{
+    background: rgb(226, 0, 0);
+    color: white;
+}
+
+h2::selection{
+    background: rgb(226, 0, 0);
+    color: white;
+}
 
 ::-webkit-scrollbar{
     border-radius: 25px;
@@ -31,6 +50,8 @@ article{
     border-radius: 15px;
     border: 2px solid rgb(156, 156, 156)
 }
+
+
 
 .imagenes{
     display: flex;
