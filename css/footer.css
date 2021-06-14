@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
-    margin-right: 50px;
 }
 
 .titulo-redes h2{
@@ -40,4 +39,22 @@ i{
 
 i:hover{
     color: rgb(141, 141, 141);
+}
+
+@media screen and (max-width: 620) {
+    .titulo-redes{
+        margin-left: 20px;
+    }
+
+    .redes{
+        margin-right: 20px;
+    }
+
+    .articulo-footer h4{
+        text-align: center;
+    }
+
+    .articulo-footer{
+        padding: 10px;
+    }
 }
