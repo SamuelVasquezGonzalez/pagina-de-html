@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .titulo-redes h2{
@@ -43,7 +44,7 @@ i:hover{
 
 @media screen and (max-width: 620) {
     .titulo-redes{
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .redes{

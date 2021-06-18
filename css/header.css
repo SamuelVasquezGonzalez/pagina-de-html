@@ -55,7 +55,7 @@ input{
 }
 
 
-nav ul a{
+nav ul .botonhead{
     padding: 5px;
     border-radius: 50px;
     margin-top: 50px;
